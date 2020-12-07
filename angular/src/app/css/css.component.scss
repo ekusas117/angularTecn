@@ -1,0 +1,91 @@
+$main-color: #33a533;
+.css-basic {
+  width: 49%;
+  margin: 1%;
+  padding: 1%;
+  p {
+    text-align: justify;
+  }
+}
+
+.css-container .another {
+  width: 100%;
+  display: flex;
+}
+
+.sintaxis {
+  text-align: center;
+  align-items: center;
+}
+
+.table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+  th {
+    text-align: start;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: $main-color;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+}
+
+#exampleCss {
+  background-color: blue;
+}
+
+.example-css {
+  background-color: $main-color;
+}
+
+span {
+  background-color: gray;
+}
+
+.specificity {
+  width: 33%;
+}
+
+.example2-css {
+  background-color: blue;
+  color: white;
+}
+
+.example2-css {
+  background-color: red;
+  color: white;
+}
+
+.example2-css {
+  background-color: black;
+  color: white;
+}
+
+.example3-css {
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  background-color: cadetblue;
+}
+
+
+h2{
+  font-family: var(--header-font);
+  letter-spacing: -.5pt;
+  color: $main-color;
+}
+
+
+h3{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

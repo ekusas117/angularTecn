@@ -1,0 +1,41 @@
+Angular
+
+What is Angular?
+is a front end development framerwork and this 
+it is a kind of template, a conceptual scheme, which simplifies the elaboration of a task,
+and these are packages containing pre-written, standardized code in files and folders.
+maintained and developed by Google.  
+
+-AngJS-
+Javascript
+Specific NgDirective for image/proterty of and event (ng-submit/repeat/click
+Doesn't provide any mobile support
+less manageable
+deprecated
+two way binding reduces effort and time
+-Angular-
+Typescript
+uses () to bind and event and [] for property binding
+Simplified structure
+faster than angjs
+active support and frequent new updates
+and I really like angular cli and testing with this ( interfaz de línea de comandos)
+
+
+
+-Angular 9 update-
+improvement improvement
+- Performance
+- Multi language (internationalization)
+- Last version on Typescript
+- Test faster
+
+-Angular 10 update-
+- Date range (to pick up start and end date)
+- The browsers supported by default have been reduced, to avoid loading code compiled in es5
+- Over 700 issues have been removed
+
+- Primeros pasos - Angular CLI (interfaz de línea de comandos)
+- Protactor test end to end
+- Jasmine unit test
+- Karma reports test

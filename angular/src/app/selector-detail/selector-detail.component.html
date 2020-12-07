@@ -1,0 +1,11 @@
+<div [ngSwitch]="type">
+  <div style="cursor: pointer;" *ngSwitchCase="enumTypes.class" (click)="openBottomSheet()">
+    <td >
+      <i>class </i>
+    </td>
+  </div>
+  <div *ngSwitchCase="enumTypes.classDot">...</div>
+
+  <ng-container *ngSwitchCase="enumTypes.classDotSpace"> </ng-container>
+  <div *ngSwitchDefault>...</div>
+</div>

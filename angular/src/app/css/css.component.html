@@ -1,0 +1,185 @@
+
+<div class="css-container">
+  <div class="css-basic">
+    <h3>Español</h3>
+    <p>
+      Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en
+      cascada» y parten de un concepto simple pero muy potente: aplicar estilos
+      (colores, formas, márgenes, etc...) a uno o varios documentos
+      (generalmente documentos HTML, páginas webs) de forma masiva. Se le
+      denomina estilos en cascada porque se aplican de arriba a abajo (siguiendo
+      un patrón denominado herencia que trataremos más adelante) y en el caso de
+      existir ambigüedad, se siguen una serie de normas para resolverla.
+    </p>
+  </div>
+  <div class="css-basic">
+    <h3>Ingles</h3>
+    <p>
+      <b>C</b>ascading <b>S</b>tyle <b>S</b>heets (CSS) is a style sheet
+      language used for describing the presentation of a document written in a
+      markup language such as HTML. CSS is designed to enable the separation of
+      presentation and content, including layout, colors, and fonts.
+    </p>
+  </div>
+</div>
+<div class="sintaxis">
+  <h2>Sintaxis básica / Basic syntax</h2>
+  <img
+    width="50%"
+    src="https://lenguajecss.com/css/introduccion/estructura-de-css/sintaxis-simple.png"
+  />
+</div>
+
+<div class="css-container">
+  <div class="css-basic">
+    <h3>Español</h3>
+    <ul>
+      <li>
+        Selector: El selector es el elemento HTML que vamos a seleccionar del
+        documento para aplicarle un estilo concreto. Por ejemplo, el elemento p.
+        Realmente, esto es mucho más complejo, pero ya dedicaremos una serie de
+        capítulos exclusivamente a este tema.
+      </li>
+      <li>
+        Propiedad: La propiedad es una de las diferentes características que
+        brinda el lenguaje CSS e iremos aprendiendo.
+      </li>
+      <li>
+        Valor: Cada propiedad CSS tiene una serie de valores concretos, con los
+        que tendrá uno u otro comportamiento.
+      </li>
+    </ul>
+  </div>
+  <div class="css-basic">
+    <h3>Ingles</h3>
+    <ul>
+      <li>
+        Selector: The selector is the HTML element that we are going to select
+        from the document to apply a specific style to it. For example, the
+        element p. Actually, this is much more complex, but we will dedicate a
+        series of chapters exclusively to this topic.
+      </li>
+      <li>
+        Property: Property is one of the different characteristics that CSS
+        language provides and we will learn.
+      </li>
+
+      <li>
+        Value: Each CSS property has a series of specific values, with which it
+        will have one or another behavior.
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="sintaxis">
+  <h2>Tres Tipos / Three types</h2>
+  <table class="table">
+    <tr>
+      <th scope="row">Nombre/Name</th>
+      <th>Metodo/Method</th>
+      <th>Descripción/Description</th>
+    </tr>
+
+    <tr>
+      <th>CSS Externo/External</th>
+      <td>Etiqueta <code class="code"> link </code></td>
+      <td>
+        El código se escribe en un archivo .css a parte. Método más habitual/
+        Most Used
+      </td>
+    </tr>
+
+    <tr>
+      <th>CSS Interno/Internal</th>
+      <td>Etiqueta <code class="code"> style </code></td>
+      <td>
+        El código se escribe en una etiqueta <code>style</code> en el documento
+        HTML
+      </td>
+    </tr>
+
+    <tr>
+      <th>CSS En linea/InLine</th>
+      <td>Atributo <code>style="..."</code></td>
+      <td>El código se escribe en un atributo HTML de una etiqueta.</td>
+    </tr>
+  </table>
+</div>
+
+<div class="sintaxis">
+  <h2>Especificidad / Specificity</h2>
+  <img
+    width="50%"
+    src="https://cms-assets.tutsplus.com/uploads/users/30/posts/34141/image/spec-02.svg"
+  />
+</div>
+
+<div class="css-container">
+  <div class="css-basic">
+    <h3>Español</h3>
+    <p>
+      La especificidad es la manera mediante la cual los navegadores deciden qué
+      valores de una propiedad CSS son más relevantes para un elemento y, por lo
+      tanto, serán aplicados.
+    </p>
+  </div>
+  <div class="css-basic">
+    <h3>Ingles</h3>
+    <p>
+      Specificity is the way browsers decide which values of a CSS property are
+      most relevant to an element and, therefore, will be applied.
+    </p>
+  </div>
+  <div></div>
+</div>
+
+<div class="sintaxis" style="display: flex">
+  <div class="specificity">
+    <span class="example-css" id="exampleCss">Example</span> (id, class,
+    element) <span class="example-css">Example</span> (class, element)
+    <span>Example</span> (element)
+    <span style="background-color: red">Example</span> (inline)
+    <div>
+      <img src="assets/img/specifity.png" />
+    </div>
+  </div>
+  <div class="specificity">
+    <span class="example2-css">Example reading</span>
+    <div>
+      <img src="assets/img/specifity2.png" />
+    </div>
+  </div>
+  <div class="specificity">
+    <span class="example3-css" id="example3Css">Example</span>
+    <div>
+      <img src="assets/img/specifity3.png" />
+    </div>
+  </div>
+</div>
+
+<div class="sintaxis">
+  <h2>Minificación / Minification (Clean CSS tool)</h2>
+  <img width="50%" src="assets/img/minificacion.png" />
+</div>
+
+<div class="css-container">
+  <div class="css-basic">
+    <h3>Español</h3>
+    <p>
+      es la acción de eliminar carácteres o comentarios de nuestro código, con
+      el objetivo de reducir su tamaño total, y por lo tanto, descargarlos más
+      rápido.
+    </p>
+  </div>
+  <div class="css-basic">
+    <h3>Ingles</h3>
+    <p>
+      It is the action of removing characters or comments from our code, in
+      order to reduce their total size, and therefore, download them faster.
+    </p>
+  </div>
+  <div></div>
+</div>
+
+<app-selectors></app-selectors>
