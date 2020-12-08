@@ -12,4 +12,6 @@ dependencies etc.
 - index.js / has all required imports for react
 - JSX mix html and js to work easier
 
-- Component 
+- Component basically it is a visual element that has its
+ own state, receives some properties and implements its
+  own rendering logic.

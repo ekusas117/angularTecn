@@ -1,12 +1,19 @@
-import logo from "./assets/css/logo.svg";
+import logo from "./assets/images/logo.svg";
 import "./assets/css/App.css";
+
+
+// Import Components
+import MiComponent from './component/MiComponent'
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img width="200" src={logo} className="App-logo" alt="logo" />
-        <p>React JS</p>
+        <section className="components">
+          <MiComponent/>
+        </section>
         <ul>
           <li>
             <b>Componente</b>: El concepto de componente es algo bastante sencillo de
