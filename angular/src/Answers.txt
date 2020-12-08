@@ -1,0 +1,22 @@
+Can you answer these questions when you get a chance?
+
+Test Questions
+
+1. a. What is a closure? b. What are their disadvantages?
+
+a) Is when a function is able to remember and access a scope, 
+even when the function is executed outside the scope.
+
+b) don't knowing how to create, them consume resources and slow the execution of the code .
+
+2. How does the inheritance system in JavaScript work?
+Js implements an inheritance that allows us to associate a prototype 
+object with a constructor function. In this way, the new object inherits all 
+the properties of the prototype object. 
+
+3. a. What is `this`? b. How can you change its value?
+"This" as a shortcut that refers to the object from where the function was invoked. 
+That is why with this we can access all the values and properties of the source object. 
+Any changes made to this will also update the referred object.
+
+and We can change that value with the prototype 'call'

@@ -1,0 +1,30 @@
+let != var, const
+---let
+introduce into es6
+block scope
+---var
+from the beginning js
+has function scope
+hoisted
+---const cannot change the value
+________________________________________________
+=== != == comparison operators
+==
+only value
+===
+value and type
+________________________________________________
+null != undefined
+undefined put automatically js and type is undefined too
+and null put programmer
+________________________________________________
+function declaration and expression
+function declaration(){
+
+}
+
+let expression = function() {
+(annonymun function assign to a variable)
+}
+
+

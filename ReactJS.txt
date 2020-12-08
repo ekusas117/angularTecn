@@ -1,0 +1,15 @@
+ReactJS
+
+- cli: 
+Command-line interface 
+create-app-react 
+npm install create-app-react  
+
+- readme / has information about de ReactJS.
+- package.json / configuration file with name, version, 
+dependencies etc.
+- gitignore / file with exclude files/ folder for commits
+- index.js / has all required imports for react
+- JSX mix html and js to work easier
+
+- Component 

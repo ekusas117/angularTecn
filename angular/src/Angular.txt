@@ -1,0 +1,120 @@
+What is Angular?
+is a front end development framerwork and this 
+it is a kind of template, a conceptual scheme, which simplifies the elaboration of a task,
+and these are packages containing pre-written, standardized code in files and folders.
+mainatained and developed by Google.
+___________________________________________
+AngJS !== Angular 
+AngJS
+Javascript
+Specific NgDirective for image/proterty of and event (ng-submit/repeat/click
+Doesn't provide any mobile support
+less manageable
+deprecated
+two way binding reduces effort and time
+Angular
+Typescript
+uses () to bind and event and [] for property binding
+Simplified structure
+faster than angjs
+active support and frequent new updates
+and I really like angular cli and testing with this
+
+Question no: 1 :- Whats the use of Angular ?
+- Angular Material.
+- Ahead-of-time compiler: Angular’s AOT compiler converts TypeScript and 
+HTML into JavaScript during the build process.
+- CLI  command-line interface: is a method that allows users to give instructions 
+to a program through a simple line of text.
+- Great ecosystem of third-party components: The popularity of Angular has resulted in the 
+appearance of thounsands of additionals tools, like a datepickers, tools for connect with anothers
+tools or applications like firebase, jira
+- Support by Google.
+- Detailed documentation.
+
+Question no: 2 :- What are directives in Angular ?
+They are, essentially, instructions for manipulating the DOM.
+
+Question no: 3 :- Explain the different types of Angular directives ?
+there are tree types of directives.
+--- attribute directives.
+this ones alter the appearance or behavior of a DOM 
+ngModel: Implementa binding
+ngClass: permite añadir/eliminar varias clases
+ngStyle: permite asignar estilos inline
+--- Structural Directives.
+as its name says the alter the structure of DOM, adding, removing and manipulating the host element
+to which they are attached.
+*ngIf: allow to include conditionals.
+*ngFor:  allow execute loops (let name of list)
+ngSwitch: similar to ngIf, we can create differents cases to evaluate, 
+when the expected condition is met, hide / show the HTML
+ngPlural: is a directive that allows adding or removing elements from the DOM, based on a numeric value.
+section [ngPrural]="nameofvariable"
+inside ngPruralCase="=<>"
+ngTemplate
+--- Component directives:
+this ones are directives with a html template
+@Component decorator
+
+Question no: 4 :- Explain the importance of NPM and Node_Modules folder ?
+node package manager:
+that manager make our lives easier since thanks to it we can have any librarys available with only
+one line of code, when we install new packages what npm does is install it locally in our project 
+inside the node_modules folder, but we can install globaly
+and node_modules is a folder which contains all package that we install into the project.
+
+
+Question no: 5 :- Explain the importance of Package.json file in Angular ?
+it'll contain the information about npm packages installed for the project
+--- metadata it contains information about your application.
+name, version author, description, license ...
+--- script 
+This section describes Node scripts you can run in your application.
+ng serve
+ng build
+ng test ...
+--- Dependencies
+The list of packages installed as dependencies for this project are required at runtime.
+@angular/animations compiler forms
+--- Development Dependencies
+The list of packages that are required only for development. 
+
+Question no: 6 :- What is typescript and why do we need it ?
+karma tslint jasmine codelyzer typescript
+
+Question no: 7 :- Explain importance of Angular CLI ?
+
+Question no: 8 :- Explain the importance of Component and Modules ?
+
+Question no: 9 :- What is a decorator in Angular ?
+
+Question no: 10 :- What are Annotationa or MetaData ?
+
+Question no: 11 :- What is a template ?
+
+Question no: 12 :- Explain the four types of Data bindings in Angular ?
+
+Question no: 13 :- Explain architecture of Angular ?
+
+Question no: 14 :- What is SPA in Angular ?
+
+Question no: 15 :- How to implement SPA in Angular ?
+
+Question no: 16 :- How to implement routing in Angular ?
+
+Question no: 17 :- Explain Lazy Loading ?
+
+Question no: 18 :- How to implement Lazy Loading in Angular ?
+
+Question no: 19 :- Define Services ?
+
+Question no: 20 :- What is Depedency Injection ?
+
+Question no: 21 :- How to implement Depedency Injection ?
+
+Question no: 23 :- Whats the benefit of Depedency Injection ?
+
+Question no: 24 :- Differentiate between ng serve and ng build ?
+
+Question no: 25 :- Explain the --prod parameter in ng build ?
