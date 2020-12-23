@@ -9,6 +9,10 @@ import { SelectorsComponent } from './selectors/selectors.component';
 import { SelectorDetailComponent } from './selector-detail/selector-detail.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+import { ReactComponent } from './react/react.component';
+import { JscriptComponent } from './jscript/jscript.component';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,13 +20,17 @@ import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
     CssComponent,
     MainPageComponent,
     SelectorsComponent,
-    SelectorDetailComponent
+    SelectorDetailComponent,
+    ReactComponent,
+    JscriptComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatBottomSheetModule
+    MatBottomSheetModule,
+    MatSlideToggleModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

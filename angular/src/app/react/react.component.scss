@@ -1,0 +1,21 @@
+.container {
+  padding: 2%;
+  background: #1c2a35;
+  color: white;
+  height: 100%;
+  .divider {
+    display: flex;
+    div {
+      width: 49%;
+    }
+    .english {
+      font-style: oblique;
+    }
+    .spanish {
+    }
+  }
+  .img-container{
+    align-items: center;
+    text-align: center;
+  }
+}

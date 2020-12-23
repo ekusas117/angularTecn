@@ -1,0 +1,207 @@
+<div class="container">
+  <h1>
+    Javascript <mat-slide-toggle [(ngModel)]="language"></mat-slide-toggle>
+  </h1>
+  <p *ngIf="language">
+    JavaScript es un lenguaje de programación o de secuencias de comandos que te
+    permite implementar funciones complejas en páginas web, cada vez que una
+    página web hace algo más que sentarse allí y mostrar información estática
+    para que la veas, muestra oportunas actualizaciones de contenido, mapas
+    interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas
+    reproductoras de vídeo, etc.,
+  </p>
+
+  <p *ngIf="!language">
+    JavaScript is a programming language that lets you allows to implement
+    complex functions in web pages, every time a website does more than just sit
+    there and display static information for you to see, displays timely content
+    updates, maps interactive, 2D / 3D graphics animation, machine scrolling
+    video players, etc.,
+  </p>
+
+  <ol>
+    <li>
+      let, var, const
+      <hr />
+      <img width="20%" src="assets/img/jsLet.png" />
+    </li>
+    <li *ngIf="!language">
+      Difference between == and ===
+      <hr />
+      comparison operators == only compares value === compares value and type
+    </li>
+    <li *ngIf="language">
+      Diferencia entre == y ===
+      <hr />
+      Operadores comparativos == solo compara el valor value === compara el
+      valor y el tipo
+    </li>
+    <br />
+    <code>
+      if('1' == 1) {{ co }} <br />true<br />
+      {{ co2 }}
+      if('1' === 1) {{ co }} <br />false<br />
+      {{ co2 }}
+    </code>
+    <li *ngIf="!language">
+      Difference between null and undefined
+      <hr />
+      undefined put automatically js and type is undefined too and null put
+      programmer
+    </li>
+    <li *ngIf="language">
+      Diferencia enttre null y undefined
+      <hr />
+      Undefined lo pone automaticamente JS y el tipo es indefinido tambien y el
+      Null lo pone el programador.
+    </li>
+    <li *ngIf="language">
+      Functions arrow ES6 (ECMAScript 2015)
+      <hr />
+      Las funciones de flecha, o arrow functions son una nueva forma de definir
+      funciones y hay distintas variantes en la sintaxis: Función de un solo
+      parámetro. Al crear una arrow function de un solo parámetro no es
+      necesario escribír los paréntesis, tampoco es necesario escribír las
+      llaves, esto se puede cuando la función es de una sola línea y devuelve un
+      valor.
+    </li>
+    <li *ngIf="!language">
+      Arrow function ES6 (ECMAScript 2015)
+      <hr />
+      The arrow function are the new form to define functions and exist many
+      syntax forms: function with only one parameter. When create an arrow
+      function with one parameter isn't necessary write parenthesis, not
+      necessary write keys, this only when is a function with only one line
+    </li>
+    <img width="20%" src="assets/img/jsLet2.png" />
+    <li>
+      <h5 *ngIf="!language">Inheritance</h5>
+
+      <h5 *ngIf="language">Herencia</h5>
+      <img width="33%" src="assets/img/jsobjects.png" />
+      <img width="33%" src="assets/img/constructos.png" />
+      <img width="33%" src="assets/img/herencia.png" />
+      <span>
+        the inheritance is possible by the use of prototype property that has
+        every object
+      </span>
+      <img width="20%" src="assets/img/herencia2.png" />
+    </li>
+    <li *ngIf="language">
+      Difference between function expression and function declaration
+      <hr />
+      function declaration and expression function declaration() let expression
+      = function() (annonymun function assign to a variable)
+    </li>
+
+    <li *ngIf="language">
+      Which are javascript data types?
+      <hr />
+      String, booleano, Objeto, Número, Indefinido. <br />
+    </li>
+    <li *ngIf="language">
+      for what work function isNan?
+      <hr />
+      is a function that returns a boolean if the argument is a number. <br />
+    </li>
+    <li *ngIf="language">
+      for what work function isNan?
+      <hr />
+      is a function that returns a boolean if the argument is a number. <br />
+    </li>
+
+    <li *ngIf="language">
+      is possible divide the js code in some lines?
+      <hr />
+      Yes, string with backslash and variables with comma <br />
+      var texto = 'Este es un texto\ <br />de varias <br />\ lineas' <br />
+    </li>
+
+    <li *ngIf="language">
+      What is dialog box in js?
+      <hr />
+      Is for show a box with a message (alert) or to accept(confirm) o enter a
+      text (prompt)
+    </li>
+
+    <li *ngIf="language">
+      What is 'this' in js?
+      <hr />
+      The keyword 'this' refers to the object from which it was called.
+    </li>
+
+    <li *ngIf="language">
+      Write code to add new elements dynamically
+      <hr />
+      var elemento = document.createElement("H1") // Creamos un elemento del
+      tipo h1
+      <br />var texto = document.createTextNode("Este es un texto creado a
+      través de un nodo de texto"); // Creamos un texto con un nodo de texto<br />
+      elemento.appendChild(texto); // Agregamos el nodo de texto al elemento<br />
+      document.getElementById('nodo-texto').appendChild(elemento) // Para
+      podemos mostrarlo en el DOM lo seleccionamos el div donde lo queremos
+      introducir y le pasamos como hijo el h1<br />
+    </li>
+
+    <li *ngIf="language">
+      what is timers in JS?
+      <hr />
+      setTimeout<br />
+      setInterval <br />
+      infinity intervals can stop window.clearInterval() clearInterval<br />
+    </li>
+    <li *ngIf="language">
+      What is the difference between ViewState and SessionState?
+      <hr />
+      ‘ViewState’ es muy específico para la página de una sesión. <br />
+      ‘SessionState’ es específico para los datos del usuario, a los que se
+      entra en las páginas de la aplicación web.
+    </li>
+    <li *ngIf="language">
+      Explain how a form can be submitted using JavaScript.
+      <hr />
+      document.form[0].submit();
+    </li>
+    <li *ngIf="language">
+      How can the style / class of an element be changed?
+      <hr />
+      document.getElementById("myText").style.fontSize = "20?;<br />
+      document.getElementById("myText").className = "anyclass";
+    </li>
+    <li *ngIf="language">
+      What are all the loops in JavaScript?
+      <hr />
+      -For <br />
+      -While<br />
+      -Do-While<br />
+      -forEach<br />
+    </li>
+    <li *ngIf="language">
+      How can you convert a string from any base to an integer in JavaScript?
+      <hr />
+      parseInt ("4F", 16);
+    </li>
+    <li *ngIf="language">
+      = 3+2+''7''
+      <hr />
+      57
+    </li>
+    <li *ngIf="language">
+      How can the operating system of the client machine be detected?
+      <hr />
+      navigator.platform.
+    </li>
+    <li *ngIf="language">
+      What does NULL mean in Javascript?
+      <hr />
+      The value (NULL) is used to represent no value or no object. This means
+      that it does not represent any object or string, nor Boolean value, nor
+      number or object in an array.
+    </li>
+    <li *ngIf="language">
+      What is the function of the delete operator?
+      <hr />
+      The keyword (delete) is used to delete the property, as well as its value.
+    </li>
+  </ol>
+</div>
